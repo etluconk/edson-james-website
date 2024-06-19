@@ -57,10 +57,18 @@ const config: GatsbyConfig = {
       "path": "./src/pages/"
       },
       __key: "pages"
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `IBM Plex Mono`
+        ],
+        display: 'swap'
+      }
     }
   ]
 };
-
 
 
 export default config;
