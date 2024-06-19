@@ -10,8 +10,10 @@ type LayoutProps = {
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <SLayout className="s-layout">
-        <Navigation />
-        {children}
+        <SContainer>
+            <Navigation />
+            {children}
+        </SContainer>
     </SLayout>
   )
 }
@@ -19,5 +21,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 export default Layout
 
 const SLayout = styled.main`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    `
 
+const SContainer = styled.div`
+    width: 100%;
+    max-width: 480px;
 `
