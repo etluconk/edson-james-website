@@ -2,20 +2,21 @@ import * as React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
-type NavigationProps = {
-    title: string;
-}
-
-const Navigation: React.FC<NavigationProps> = ({ title }) => {
+const Navigation: React.FC = () => {
   return (
-    <Container>
-        {title}
-    </Container>
+    <NavigationContainer>
+        <Link to="/">Home</Link>
+        <Link to="/games">Video Games</Link>
+        <Link to="/music">Music</Link>
+        <Link to="/fun-extras">Fun Extras</Link>
+    </NavigationContainer>
   )
 }
 
 export default Navigation
 
-const Container = styled.div`
-
+const NavigationContainer = styled.div`
+    [aria-current="page"] {
+        background-color: red;
+    }
 `

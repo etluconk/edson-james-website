@@ -1,5 +1,6 @@
 import * as React from "react"
 import styled from "styled-components"
+import Navigation from "../Navigation"
 import "../../global.css"
 
 type LayoutProps = {
@@ -9,6 +10,7 @@ type LayoutProps = {
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <SLayout className="s-layout">
+        <Navigation />
         {children}
     </SLayout>
   )
