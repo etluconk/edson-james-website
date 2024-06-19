@@ -1,3 +1,5 @@
+import React from "react"
+
 const MusicIcon: React.FC = () => {
     return (
         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -5,3 +7,5 @@ const MusicIcon: React.FC = () => {
         </svg>
     )
 }
+
+export default MusicIcon
