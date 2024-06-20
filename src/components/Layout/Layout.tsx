@@ -29,5 +29,5 @@ const SLayout = styled.main`
 
 const SContainer = styled.div`
     width: 100%;
-    max-width: 480px;
+    max-width: 680px;
 `
