@@ -2,26 +2,11 @@ body {
     margin: 0;
     --page-color: rgb(13, 13, 13);
     --content-color: rgb(124, 124, 124);
-    --accent-color: rgb(0, 251, 174);
+    --accent-color: 255, 88, 119;
 
     background-color: var(--page-color);
-
-    animation-timing-function: linear;
-    animation-name: accent-color-loop;
-    animation-duration: 0.5s; /* Increased duration for smoother transition */
-    animation-iteration-count: infinite;
 }
 
-@keyframes accent-color-loop {
-    0%    { --accent-color: rgb(0, 251, 174); }
-    33%   { --accent-color: rgb(217, 87, 99); }
-    66%   { --accent-color: rgb(251, 242, 54); }
-    100%  { --accent-color: rgb(0, 251, 174); }
-}
-
-h1 {
-    color: var(--accent-color);
-    font-family: 'IBM Plex Mono';
-    font-weight: 300;
-    font-size: 40px;
+::selection {
+    background: rgba(var(--accent-color), 0.99);
 }
