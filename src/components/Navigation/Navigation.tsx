@@ -20,13 +20,17 @@ const Navigation: React.FC = () => {
 export default Navigation
 
 const NavigationContainer = styled.div`
+    width: calc(100% - 60px);
+    max-width: 680px;
+
     display: flex;
-    width: 100%;
     justify-content: center;
     padding-top: 35px;
     padding-bottom: 25px;
-    border-bottom: solid 3px var(--accent-color);
+    border-bottom: solid 3px rgb(var(--accent-color));
     background-color: var(--page-color);
+
+    position: fixed;
 
     svg {
         margin-left: 15px;
@@ -36,6 +40,6 @@ const NavigationContainer = styled.div`
     }
 
     svg path {
-        fill: var(--accent-color)
+        fill: rgb(var(--accent-color));
     }
 `
