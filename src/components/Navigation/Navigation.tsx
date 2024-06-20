@@ -25,15 +25,17 @@ const NavigationContainer = styled.div`
     justify-content: center;
     padding-top: 35px;
     padding-bottom: 25px;
-    border-bottom: solid 2px rgb(var(--accent-color));
-    background-color: rgb(var(--page-color));
+    border-bottom: solid 3px var(--accent-color);
+    background-color: var(--page-color);
 
     svg {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 40px;
+        height: 40px;
     }
 
     svg path {
-        fill: rgb(var(--accent-color))
+        fill: var(--accent-color)
     }
 `
