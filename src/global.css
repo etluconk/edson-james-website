@@ -1,20 +1,27 @@
 body {
     margin: 0;
-    --accent-color: 0, 251, 174;
-    --page-color: 13, 13, 13;
-    background-color: rgb(var(--page-color));
+    --page-color: rgb(13, 13, 13);
+    --content-color: rgb(124, 124, 124);
+    --accent-color: rgb(0, 251, 174);
 
-    animation: accent-color-loop 0.5s infinite;
+    background-color: var(--page-color);
+
+    animation-timing-function: linear;
+    animation-name: accent-color-loop;
+    animation-duration: 0.5s; /* Increased duration for smoother transition */
+    animation-iteration-count: infinite;
 }
 
 @keyframes accent-color-loop {
-    0%    { --accent-color: 0, 251, 174; }
-    33%   { --accent-color: 251, 242, 54; }
-    66%   { --accent-color: 217, 87, 99; }
-    100%    { --accent-color: 0, 251, 174; }
+    0%    { --accent-color: rgb(0, 251, 174); }
+    33%   { --accent-color: rgb(217, 87, 99); }
+    66%   { --accent-color: rgb(251, 242, 54); }
+    100%  { --accent-color: rgb(0, 251, 174); }
 }
 
 h1 {
-    color: rgb(var(--accent-color));
+    color: var(--accent-color);
     font-family: 'IBM Plex Mono';
+    font-weight: 300;
+    font-size: 40px;
 }

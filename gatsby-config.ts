@@ -62,9 +62,9 @@ const config: GatsbyConfig = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `IBM Plex Mono`
+          `IBM Plex Mono\:100,100i,200,200i,300,300i,400`
         ],
-        display: 'swap'
+        display: 'block'
       }
     }
   ]
