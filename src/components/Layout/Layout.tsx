@@ -31,7 +31,7 @@ const SContainer = styled.div`
     overflow: hidden;
     max-width: 680px;
     width: calc(100% - 60px);
-    padding-top: 100px;
+    padding-top: 150px;
     padding-left: 30px;
     padding-right: 30px;
 
@@ -46,13 +46,27 @@ const SContainer = styled.div`
     h2 {
         color: var(--content-color);
         font-family: 'IBM Plex Mono';
+        font-style: italic;
         font-weight: 300;
         font-size: 30px;
         margin-bottom: 50px;
         margin-top: 0px;
     }
 
-    h1::selection, h2::selection {
+    h3 {
+        color: rgb(var(--accent-color));
+        font-family: 'IBM Plex Mono';
+        font-weight: 300;
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    h3 a {
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+    h1::selection, h2::selection, h3::selection {
         color: var(--page-color);
     }
 
