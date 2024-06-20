@@ -24,7 +24,7 @@ const IndexPage: React.FC<PageProps> = () => {
           <a href="/games/tiny-game">Tiny Game</a> - My first game ever made with the godot game engine
         </li>
         <li>
-          <a href="/music">My Music</a> - Not very good but not very bad.
+          <a href="/music">My music</a> - Not very good but not very bad.
         </li>
         <li>
           <a href="https://scratch.mit.edu/users/etluconk" target="_blank">My old Scratch account</a> - My first experience with game development was on this block coding site.
