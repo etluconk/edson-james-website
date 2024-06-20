@@ -10,8 +10,8 @@ type LayoutProps = {
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <SLayout className="s-layout">
+        <Navigation />
         <SContainer>
-            <Navigation />
             {children}
         </SContainer>
     </SLayout>
@@ -21,13 +21,88 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 export default Layout
 
 const SLayout = styled.main`
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    `
+    overflow: hidden;
+`
 
 const SContainer = styled.div`
-    width: 100%;
+    overflow: hidden;
     max-width: 680px;
+    width: calc(100% - 60px);
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    h1 {
+        color: rgb(var(--accent-color));
+        font-family: 'IBM Plex Mono';
+        font-weight: 300;
+        font-size: 50px;
+        margin-bottom: 5px;
+    }
+
+    h2 {
+        color: var(--content-color);
+        font-family: 'IBM Plex Mono';
+        font-weight: 300;
+        font-size: 30px;
+        margin-bottom: 50px;
+        margin-top: 0px;
+    }
+
+    h1::selection, h2::selection {
+        color: var(--page-color);
+    }
+
+    p, a {
+        color: var(--content-color);
+        font-family: 'IBM Plex Mono';
+        font-weight: 400;
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    a, a:visited {
+        color: rgb(var(--accent-color));
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--page-color);
+        background-color: rgb(var(--accent-color));
+    }
+
+    a::selection {
+        color: var(--page-color);
+    }
+
+    p::selection {
+        color: var(--page-color)
+    }
+
+    li::selection {
+        color: var(--page-color)
+    }
+
+    ul {
+        list-style-type: none;
+    }
+    
+    li {
+        font-family: 'IBM Plex Mono';
+        font-weight: 400;
+        font-size: 18px;
+        color: var(--content-color);
+        margin-bottom: 10px;
+    }
+
+    li::before {
+        content: "- ";
+        font-family: 'IBM Plex Mono';
+        font-weight: 400;
+        font-size: 18px;
+        color: rgb(var(--accent-color));
+    }
 `
