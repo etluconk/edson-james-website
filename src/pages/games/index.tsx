@@ -7,6 +7,7 @@ const IndexPage: React.FC<PageProps> = () => {
     <Layout>
       <Container>
         <h1>Games</h1>
+        <h2>They're video games! What more do I have to say?</h2>
       </Container>
     </Layout>
   )
