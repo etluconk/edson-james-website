@@ -16,8 +16,8 @@ const PathText: React.FC<PathTextProps> = ({ children }) => {
 
 export default PathText
 
-const PathTextContainer = styled.p`
-  display: inline;
+const PathTextContainer = styled.span`
+  display: block;
 
   a {
     font-size: 50px;
