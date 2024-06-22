@@ -27,7 +27,13 @@ const IndexPage: React.FC<PageProps> = () => {
           <a href="/music">My music</a> - Not very good but not very bad.
         </li>
         <li>
-          <a href="https://scratch.mit.edu/users/etluconk" target="_blank">My old Scratch account</a> - My first experience with game development was on this block coding site.
+          <a href="https://khanacademy.org/profile/etluconk" target="_blank">My Khan Academy account</a> - First time coding, ever! Thanks a bunch to Khan Academy for basically teaching the backbone of all my programming knowledge.
+        </li>
+        <li>
+          <a href="https://scratch.mit.edu/users/etluconk" target="_blank">My old Scratch account</a> - My first experience with game development was on this block coding site, after I learned the fundamentals on Khan Academy.
+        </li>
+        <li>
+          <a href="/about">More about me</a> - Information and places to find me
         </li>
       </ul>
       <p>

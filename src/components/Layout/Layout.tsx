@@ -1,6 +1,7 @@
 import * as React from "react"
 import styled from "styled-components"
 import Navigation from "../Navigation"
+import AudioPlayer from "../AudioPlayer"
 import "../../global.css"
 
 type LayoutProps = {
@@ -14,6 +15,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <SContainer>
             {children}
         </SContainer>
+        <AudioPlayer />
     </SLayout>
   )
 }
@@ -25,15 +27,6 @@ const SLayout = styled.main`
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-`
-
-const SContainer = styled.div`
-    overflow: hidden;
-    max-width: 680px;
-    width: calc(100% - 60px);
-    padding-top: 150px;
-    padding-left: 30px;
-    padding-right: 30px;
 
     h1 {
         color: rgb(var(--accent-color));
@@ -56,7 +49,7 @@ const SContainer = styled.div`
     h3 {
         color: rgb(var(--accent-color));
         font-family: 'IBM Plex Mono';
-        font-weight: 300;
+        font-weight: 400;
         font-size: 25px;
         margin-bottom: 5px;
     }
@@ -76,6 +69,7 @@ const SContainer = styled.div`
         font-weight: 400;
         font-size: 18px;
         text-align: justify;
+        text-decoration: none;
     }
 
     a, a:visited {
@@ -108,15 +102,26 @@ const SContainer = styled.div`
         font-family: 'IBM Plex Mono';
         font-weight: 400;
         font-size: 18px;
+        text-align: justify;
         color: var(--content-color);
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
-    li::before {
+    /* li::before {
         content: "- ";
         font-family: 'IBM Plex Mono';
         font-weight: 400;
         font-size: 18px;
         color: rgb(var(--accent-color));
-    }
+    } */
+`
+
+const SContainer = styled.div`
+    overflow: hidden;
+    max-width: 680px;
+    width: calc(100% - 60px);
+    padding-top: 150px;
+    padding-bottom: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
 `

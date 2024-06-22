@@ -1,12 +1,24 @@
 body {
     margin: 0;
     --page-color: rgb(13, 13, 13);
-    --content-color: rgb(124, 124, 124);
+    --content-color: rgb(148, 148, 148);
     --accent-color: 255, 88, 119;
 
     background-color: var(--page-color);
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 ::selection {
     background: rgba(var(--accent-color), 0.99);
 }
+

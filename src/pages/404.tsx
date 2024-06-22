@@ -13,4 +13,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Edson James</title>
+export const Head: HeadFC = () => <title>Edson James - 404 Error</title>

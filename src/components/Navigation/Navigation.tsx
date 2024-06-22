@@ -32,6 +32,8 @@ const NavigationContainer = styled.div`
 
   position: fixed;
 
+  z-index: 100;
+
   svg {
       width: 40px;
       height: 40px;
