@@ -4,7 +4,7 @@ import styled from "styled-components"
 const AudioPlayer: React.FC = () => {
   return (
     <AudioPlayerContainer>
-      <h3>The audio player is in progress, thanks for your patience!</h3>
+      <p>The audio player is in progress, thanks for your patience!</p>
     </AudioPlayerContainer>
   )
 }
@@ -17,8 +17,8 @@ const AudioPlayerContainer = styled.div`
 
   display: flex;
   justify-content: center;
-  padding-top: 15px;
-  padding-bottom: 35px;
+  padding-top: 5px;
+  padding-bottom: 15px;
   border-top: solid 3px rgb(var(--accent-color));
   background-color: var(--page-color);
 
