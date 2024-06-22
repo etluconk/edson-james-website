@@ -15,7 +15,6 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <SContainer>
             {children}
         </SContainer>
-        <AudioPlayer />
     </SLayout>
   )
 }

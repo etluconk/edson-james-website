@@ -2,6 +2,8 @@ import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 import styled from "styled-components"
 import Layout from "../../components/Layout"
+import AudioPlayer from "../../components/AudioPlayer"
+
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <Layout>
@@ -23,6 +25,7 @@ const IndexPage: React.FC<PageProps> = () => {
           <li><audio src="/albums/2022/water.mp3" controls /> Water</li>
           <li><audio src="/albums/2022/skipping-stones.mp3" controls /> Skipping stones</li>
         </ul>
+        <AudioPlayer />
       </Container>
     </Layout>
   )
