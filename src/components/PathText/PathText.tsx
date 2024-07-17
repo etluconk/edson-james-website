@@ -21,7 +21,7 @@ const PathTextContainer = styled.span`
 
   a {
     font-size: 50px;
-    font-weight: 300;
+    font-weight: 400;
     opacity: 0.5;
     display: inline;
   }

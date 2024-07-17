@@ -30,7 +30,7 @@ const SLayout = styled.main`
     h1 {
         color: rgb(var(--accent-color));
         font-family: 'IBM Plex Mono';
-        font-weight: 300;
+        font-weight: 400;
         font-size: 50px;
         margin-bottom: 5px;
     }
