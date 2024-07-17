@@ -20,7 +20,7 @@ const IndexPage: React.FC<PageProps> = () => {
             <a href="https://scratch.mit.edu/users/etluconk">Scratch</a> - etluconk
         </li>
         <li>
-            <a href="https://youtube.com/@etluconk">Youtube</a> - Edson James (my display name is currently incorrect, long story)
+            <a href="https://youtube.com/@etluconk">Youtube</a> - Edson James
         </li>
         <li>
             <a href="https://edsonjames.bandcamp.com">Bandcamp</a> - etluconk (this is currently empty)
