@@ -11,7 +11,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <h1>Music</h1>
         <h2>It's kind of ok.</h2>
         <p>
-          I'm still working on the audio player functionality (migrating the website from raw html and css to react, don't worry if you don't what this means). If you want to listen to the music, here's some temporary native audio players. Come back later for an audio player (and more, better, music to listen to)!
+          I'm still working on the audio player functionality (migrating the website from raw html and css to react, don't worry if you don't know what this means). If you want to listen to the music, here's some temporary native audio players. Come back later for an audio player (and more, better, music to listen to)!
         </p>
         <h3>THESE AUDIO PLAYERS ARE TEMPORARY AND GOOFY! BEWARE!</h3>
         <h3>2023</h3>
