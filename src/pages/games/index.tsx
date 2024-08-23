@@ -19,7 +19,7 @@ const IndexPage: React.FC<PageProps> = () => {
             <a href="/games/Kensei-in-Space">Kensei in Space</a> - Very nice little game I made for my friend Kensei's birthday. Very very very very hard to get full completion.
           </li>
           <li>
-            <a href="/games/Bang-Bang-Shoot">Bang Bang Shoot!</a> - I made this in two days. Based on an old schoolgame from Seattle I played a bunch when I was really little. Oofy goof
+            <a href="/games/Bang-Bang-Shoot">Bang Bang Shoot!</a> - I made this in two days. Based on an old schoolgame from Seattle I played a bunch when I was really little. Completely broken. Do not play it.
           </li>
           <li>
             <a href="/games/Space-Turkey">Space Turkey</a> - "Game" I made for my parents' friend Luz. Cringy but funny.
