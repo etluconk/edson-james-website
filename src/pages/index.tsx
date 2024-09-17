@@ -14,9 +14,6 @@ const IndexPage: React.FC<PageProps> = () => {
         I have always loved drawing pictures, writing words, and composing songs, but 4 years ago I discovered computer programming and my world opened up. Now my favorite thing is creating video game experiences for my friends and family, and applying my passions while doing it. I hope you like what I have put together on this goofy website.
       </p>
       <p>
-        I have always loved drawing pictures, writing words, and composing songs, but 4 years ago I discovered computer programming and my world opened up. Now my favorite thing is creating video game experiences for my friends and family, and applying my passions while doing it. I hope you like what I have put together on this goofy website.
-      </p>
-      <p>
         Here’s some stuff I would like to feature:
       </p>
       <ul>
