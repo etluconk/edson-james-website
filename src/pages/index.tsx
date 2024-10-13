@@ -8,13 +8,13 @@ const IndexPage: React.FC<PageProps> = () => {
       <h1>Edson James</h1>
       <h2>Also known as etluconk!</h2>
       <p>
-        I am Edson the 13 year old and I like to play video games an make video games in Seattle, Washington. I also enjoy creating (and listening to) music, and I am learning <a href="https://www.ableton.com/en/live/" target="_blank">Ableton Live.</a>
+        I am Edson the 13 year old and I like to play video games and make video games in Seattle, Washington. I also enjoy creating (and listening to) music, and I am learning <a href="https://www.ableton.com/en/live/" target="_blank">Ableton Live.</a>
       </p>
       <p>
         I have always loved drawing pictures, writing words, and composing songs, but 4 years ago I discovered computer programming and my world opened up. Now my favorite thing is creating video game experiences for my friends and family, and applying my passions while doing it. I hope you like what I have put together on this goofy website.
       </p>
       <p>
-        Here’s some stuff I would like to feature:
+        Here's some stuff I would like to feature:
       </p>
       <ul>
         <li>
